@@ -7,8 +7,6 @@ use src\gameChar\GameCharacterInterface;
 
 namespace App\gameChar;
 
-// require_once("GameCharacter.php");
-// require_once("GameCharacterInterface.php");
 
 /**
  * The Magic Beast

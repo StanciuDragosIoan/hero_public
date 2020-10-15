@@ -10,9 +10,9 @@ namespace App\game;
  */
 interface GameInterface
 {
-    public function chooseWhoStarts();
+    public function chooseWhoStarts($hero, $beast);
 
-    public function getProb();
+    public function getProb($percentage);
 
-    public function play();
+    public function play($hero, $beast);
 }

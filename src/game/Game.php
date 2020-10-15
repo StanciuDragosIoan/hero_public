@@ -9,7 +9,7 @@ namespace App\game;
  * @license MIT 
  */
 
-class Game
+class Game implements GameInterface
 {
     /**
      * attacker character
